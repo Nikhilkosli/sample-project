@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: rgb(235, 213, 213); */
+  background-image: url("https://i.pinimg.com/750x/92/88/da/9288dafd47b69334b33a2be2f2af5366.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  font-family: "Geologica", sans-serif;
+}
+
+.container {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+}
+.wrapper {
+  /* border: 2px solid blue; */
+  background-color: rgb(230, 248, 202);
+  padding: 2rem 1rem;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 40%;
+  color: rgb(67, 67, 67);
+  border-radius: 8px;
+  box-shadow: 14px 11px 18px 0px rgba(4, 4, 4, 0.58);
+  -webkit-box-shadow: 14px 11px 18px 0px rgba(4, 4, 4, 0.58);
+  -moz-box-shadow: 14px 11px 18px 0px rgba(4, 4, 4, 0.58);
+}
+.item1 {
+  margin-bottom: 10px;
+}
+#label {
+  width: 40%;
+}
+
+.item1 input {
+  /* border: none; */
+  /* text-align: center; */
+  border: 2px solid rgb(49, 49, 49);
+  line-height: 1.5rem;
+  background: red;
+  width: 50%;
+  background: transparent;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-left: 8px;
+}
+input:focus {
+  border: 1px solid transparent;
+  /* border-radius: 10rem; */
+  /* background-color: rebeccapurple; */
+}
+
+.item2 select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(49, 49, 49);
+  background: transparent;
+  margin-left: 8px;
+}
+
+.hideClass {
+  display: none;
+}
+
+#attention {
+  width: 70%;
+}
